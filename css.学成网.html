@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;                     /*  去掉内外边框*/
+            padding: 0;
+        }
+        ul {
+            list-style: none;              /*  去掉列表里面的小点*/
+        }
+        .clearfix:before,
+        .clearfix::after {                 /* 去掉浮动*/
+            display: table;
+            content: "";
+        }
+        .clearfix::after {
+            clear: both;
+        }
+        .clearfix {
+            *zoom: 1;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

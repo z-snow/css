@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head><style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    ul {
+        list-style: none;
+    }
+    div {
+        width: 520px;
+        height: 280px;
+        margin: 100px auto;
+        position: relative;
+     }
+    div a {
+        position: absolute;
+        width: 24px;
+        height: 40px;
+        display: block;
+        top:50%;
+        margin-top: -20px;
+    }    
+    .arrow-r {
+        right:0px;
+    }
+    .circle {
+        background-color: rgba(255,255,255, 0.4);
+        width: 65px;
+        height: 13px;
+        position:absolute;
+        left: 260px;
+        margin-left: -32px;
+        bottom: 10px;
+        border-radius: 6px;
+    }
+    .circle li {
+        height: 9px;
+        width: 9px;
+        background-color: #B7B7B7;
+        float: left;
+        border-radius: 50%;
+        margin: 2PX;
+    }
+    div .circle .current {
+        background-color: #f40;
+    }
+
+   
+</style>
+
+<body>
+    <div>
+        <img src="photo\taobao.jpg" >
+        <a href="" class="arrow-l"><img src="photo\left.png" ></a>
+        <a href="" class="arrow-r"> <img src="photo\right.png" ></a>
+        <ul class="circle">
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+       
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {                            /*去掉内外边距*/
+            margin: 0;
+            padding: 0;               
+        }
+        ul {
+            list-style: none;                     /*去掉列表小点*/
+        }
+        .clearfix:before,.clearfix:after {               /*去掉浮动*/
+            display:table;
+            content:"";
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        header {
+            height: 50px;
+            background-color:#333;
+        }
+        .left li {
+            float: left;
+            height: 50px;
+            line-height: 50px;
+        }
+        a {
+            /* display: block;
+            box-sizing: border-box; */
+            font-size: 16px;
+            color: #919191;
+            text-decoration: none;
+            border-right: 1px solid #3c3b40;
+            padding: 0px 9px;
+        }
+        .left li a:hover {
+            color: #fff;
+        }
+        .left li:first-child {
+            margin-left: 178px;
+        }
+        .left li:last-child {
+            border: none;                       /*去掉最后一个biankuang*/
+        }
+        div li {
+            /* display: block; */
+           
+            height: 50px;
+            line-height: 50px;
+        }
+         .right li{
+            float: right;
+        }
+
+      
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav >
+        <ul class="left">
+            <li><a href="#">小米商城</a></li>
+            <li><a href="#">云服务</a></li>
+            <li><a href="#">MIUI</a></li>
+            <li><a href="#">金融</a></li>
+        </ul>
+    </nav>
+        <nav>
+        <ul clas="right">
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#">消息通知</a></li>
+            <li><a href="#">购物车（0）</a></li>
+        </ul>
+
+    </nav>
+    </header>
+</body>
+</html>

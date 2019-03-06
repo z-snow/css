@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        body {
+            background-color: #f2f2f2;
+        }
+        nav {
+            width: 674px;
+            border: 1px solid #b6b6b6;
+            height: 32px;
+            border-radius: 6px;
+            margin: 0 auto;
+            background: url(../xc1.png) no-repeat 10px center;
+        }
+        nav a {
+            margin-left: 30px;
+            line-height: 32px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .pic {
+            width: 675px;
+            height: 135px;
+            margin: 0px auto;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        section {
+            width: 660px;
+            height: 80px;
+            border: 1px solid #fff;
+            border-radius: 6px;
+            background-color: #fff;
+            margin: 0px auto;
+            /* display: flex; */
+        }
+        /* section:nth-child(1) {
+            width: 42px;
+            height: 42px;
+            background: url(../xc3.png) no-repeat;
+        } */
+        section div {
+            float: left;
+            width: 132px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 12px;
+        }
+        .row {
+            background-color: #ff6856;
+            width: 660px;
+            height: 110px;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            border-radius: 6px 6px 0 0;
+            display: flex;
+            margin-bottom: 5px;
+        }
+        .row div {
+            font-size: 16px;
+            color: #fff0ff;
+            line-height: 110px;
+            border: 1px solid #fff;
+            flex: 1
+        }
+        .row:first-child {
+            border: 0;
+        }
+        .hotel {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .hotel a {
+            flex: 1;
+            text-align: center;
+            line-height: 110px;
+            text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">搜索:目的地/酒店/航班</a>
+    </nav>
+    <div class="pic">
+        <img src="../xc2.png" alt="">
+    </div>
+    <section>
+        <div>景点</div>
+        <div>美食</div>
+        <div>一日游</div>
+        <div>当地攻略</div>
+        <div>周边游</div>
+    </section>
+    <div class="row">
+            <div class="row1">酒店</div>
+            <div class="row2 hotel"> 
+                <a href="#">海外酒店</a>
+                <a href="#">特价酒店</a>
+            </div>
+            <div class="row3">客栈</div>
+    </div>
+
+    
+
+</body>
+</html>
